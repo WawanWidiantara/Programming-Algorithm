@@ -35,7 +35,7 @@ Branch ini berisi kode-kode praktikum yang digunakan dalam kelas. Kode tersebut 
 ### 🚀 **Cara Menggunakan Repository Ini**
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/username/repo-algoritma.git
+   git clone https://github.com/WawanWidiantara/Programming-Algorithm.git
    ```
 
 2. **Pindah ke Branch `main`:**
