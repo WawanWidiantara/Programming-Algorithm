@@ -4,7 +4,7 @@ Repository ini dibuat sebagai bahan ajar untuk mata kuliah Algoritma Pemrograman
 
 ---
 
-### 📂 **Branch Utama: `main`**
+### 📂 **Branch Utama: [main](https://github.com/WawanWidiantara/Programming-Algorithm)**
 Branch ini berisi penjelasan materi dalam format Jupyter Notebook. Setiap notebook membahas konsep dasar algoritma pemrograman, lengkap dengan teori dan contoh-contoh yang mudah dipahami.
 
 **Isi Branch:**
@@ -18,7 +18,7 @@ Branch ini berisi penjelasan materi dalam format Jupyter Notebook. Setiap notebo
 
 ---
 
-### 📂 **Branch Lab: `lab-branch`**
+### 📂 **Branch Lab: [lab-branch](https://github.com/WawanWidiantara/Programming-Algorithm/tree/lab-branch)**
 Branch ini berisi kode-kode praktikum yang digunakan dalam kelas. Kode tersebut merupakan implementasi dari konsep yang telah dijelaskan dalam branch utama.
 
 **Isi Branch:**
