@@ -2,7 +2,7 @@
 # from module.matematika import penjumlahan, pengurangan, perkalian, pembagian
 # from module.matematika import *
 # from module.fisika import *
-import mtk
+import module.mtk as mtk
 
 hasil = mtk.penjumlahan(3,5)
 # hasil2 = pangkat(3, 0)
