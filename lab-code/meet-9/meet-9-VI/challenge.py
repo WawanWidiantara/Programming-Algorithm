@@ -40,6 +40,7 @@ def add_data(data):
 
 
 print(add_data(customer))
+print(add_tiga(list_awal))
 
 
 #! print waktu saat ini
