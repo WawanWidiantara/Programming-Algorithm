@@ -44,3 +44,20 @@ mahasiswa.update(
     }
 )
 print(f"Insert dengan update(): {mahasiswa}")
+
+# ? menghapus data dari dictionary
+#! dengan del
+del mahasiswa["dob"]
+print(f"Hapus dengan del: {mahasiswa}")
+
+#! dengan pop()
+mahasiswa.pop("ip")
+print(f"Hapus dengan pop: {mahasiswa}")
+
+#! popItem() -> menghapus yang paling terakhir
+mahasiswa.popitem()
+print(f"Hapus dengan popItem: {mahasiswa}")
+
+#! clear() -> menghapus semua data
+mahasiswa.clear()
+print(f"Hapus dengan clear: {mahasiswa}")
