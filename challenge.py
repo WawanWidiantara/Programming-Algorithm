@@ -5,11 +5,11 @@ list_awal = [1, 8, 2, 4, 7, 4, 3, 5, 2]
 
 
 def add_tiga(data):
-    dataset = data.copy()
+    list_awal = data.copy()
     #! menjumlahkan setiap value dalam list dengan 3
     # code disini
 
-    return dataset
+    return list_awal
 
 
 # Operasi Dictionary
@@ -26,8 +26,8 @@ customer = {
 
 
 def add_data(data):
-    dataset = copy.deepcopy(data)
-    #! tambahkan ke dataset
+    customer = copy.deepcopy(data)
+    #! tambahkan ke customer
     # {
     #     "CUST003": {
     #         "nama": "Ali",
@@ -36,7 +36,7 @@ def add_data(data):
     # }
     # code disini
 
-    return dataset
+    return customer
 
 
 print(add_data(customer))
