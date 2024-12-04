@@ -1,0 +1,7 @@
+1. What is Database
+2. How to create
+3. How to connect
+4. Tipe data colomn
+5. Primary Key dan Auto Increment (Foreign Key gausah dulu)
+6. Jelasin cukup sampai CRUD aja
+7. Jelasin simple query: SELECT, WHERE, SET
