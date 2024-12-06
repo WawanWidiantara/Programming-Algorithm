@@ -18,13 +18,14 @@ import sqlite3
 conn = sqlite3.connect("db/uty.db")
 cursor = conn.cursor()
 
-# execute -> buat Query
+# execute -> buat Query -> PRIMARY KEY
 cursor.execute(
     """
     CREATE TABLE IF NOT EXISTS mahasiswa (
-        id INT,
-        nama VARCHAR(100),
-        npm INT(10))
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nama VARCHAR(100) NOT NULL,
+        npm INT(10) NOT NULL
+        )
 """
 )
 
@@ -48,15 +49,10 @@ cursor = conn.cursor()
 """
 cursor.execute(
     """
-    INSERT INTO mahasiswa (npm, nama, id)
+    INSERT INTO mahasiswa (nama, npm)
     VALUES
-        (5210411135, "Widi", 1),
-        (5210411136, "Widi", 2),
-        (5210411137, "Widi", 3),
-        (5210411138, "Widi", 4),
-        (5210411139, "Widi", 5),
-        (5210411133, "Widi", 6),
-        (5210411132, "Widi", 7)
+        ("Widi", 5210411135),
+        ("Widi", 5210411135)
 """
 )
 
